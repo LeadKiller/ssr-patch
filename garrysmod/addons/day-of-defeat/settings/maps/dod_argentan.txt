@@ -1,0 +1,11 @@
+"Maps"
+{
+	"Day of Defeat"
+	{
+		"dod_argentan"
+		{
+			"Credits"	"Valve Software"
+			"Material"	"maps/dod_argentan"
+		}
+	}
+}

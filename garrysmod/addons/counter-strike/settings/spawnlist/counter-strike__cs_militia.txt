@@ -1,0 +1,402 @@
+"5"
+{
+	"Information"
+	{
+		"name"		"Counter-Strike: cs_militia"
+	}
+	"Entries"
+	{
+		"2"
+		{
+			"model"		"models\props/CS_militia/axe.mdl"
+		}
+		"3"
+		{
+			"model"		"models\props/CS_militia/bar01.mdl"
+		}
+		"4"
+		{
+			"model"		"models\props/CS_militia/barstool01.mdl"
+		}
+		"6"
+		{
+			"model"		"models\props/CS_militia/bathroomwallhole01_wood_broken.mdl"
+		}
+		"12"
+		{
+			"model"		"models\props/CS_militia/bottle01.mdl"
+		}
+		"15"
+		{
+			"model"		"models\props/CS_militia/bottle02.mdl"
+		}
+		"16"
+		{
+			"model"		"models\props/CS_militia/bottle03.mdl"
+		}
+		"18"
+		{
+			"model"		"models\props/CS_militia/BoulderRing01.mdl"
+		}
+		"19"
+		{
+			"model"		"models\props/CS_militia/boxes_frontroom.mdl"
+		}
+		"20"
+		{
+			"model"		"models\props/CS_militia/boxes_garage.mdl"
+		}
+		"21"
+		{
+			"model"		"models\props/CS_militia/boxes_garage_lower.mdl"
+		}
+		"22"
+		{
+			"model"		"models\props/CS_militia/bridgelight.mdl"
+		}
+		"25"
+		{
+			"model"		"models\props/CS_militia/car_militia.mdl"
+		}
+		"26"
+		{
+			"model"		"models\props/CS_militia/caseofbeer01.mdl"
+		}
+		"27"
+		{
+			"model"		"models\props/CS_militia/circularsaw01.mdl"
+		}
+		"28"
+		{
+			"model"		"models\props/CS_militia/couch.mdl"
+		}
+		"29"
+		{
+			"model"		"models\props/CS_militia/CoveredBridge01_Bottom.mdl"
+		}
+		"30"
+		{
+			"model"		"models\props/CS_militia/CoveredBridge01_Left.mdl"
+		}
+		"31"
+		{
+			"model"		"models\props/CS_militia/CoveredBridge01_Right.mdl"
+		}
+		"32"
+		{
+			"model"		"models\props/CS_militia/CoveredBridge01_Top.mdl"
+		}
+		"33"
+		{
+			"model"		"models\props/CS_militia/crate_extralargemill.mdl"
+		}
+		"34"
+		{
+			"model"		"models\props/CS_militia/crate_extrasmallmill.mdl"
+		}
+		"35"
+		{
+			"model"		"models\props/CS_militia/crate_stackmill.mdl"
+		}
+		"36"
+		{
+			"model"		"models\props/CS_militia/dryer.mdl"
+		}
+		"38"
+		{
+			"model"		"models\props/CS_militia/FenceWoodLog01_Short.mdl"
+		}
+		"39"
+		{
+			"model"		"models\props/CS_militia/FenceWoodLog02_Short.mdl"
+		}
+		"40"
+		{
+			"model"		"models\props/CS_militia/FenceWoodLog03_Long.mdl"
+		}
+		"41"
+		{
+			"model"		"models\props/CS_militia/FenceWoodLog04_Long.mdl"
+		}
+		"42"
+		{
+			"model"		"models\props/CS_militia/fence_ranch.mdl"
+		}
+		"43"
+		{
+			"model"		"models\props/CS_militia/fern01.mdl"
+		}
+		"44"
+		{
+			"model"		"models\props/CS_militia/fern01lg.mdl"
+		}
+		"45"
+		{
+			"model"		"models\props/CS_militia/fertilizer.mdl"
+		}
+		"46"
+		{
+			"model"		"models\props/CS_militia/fireplace01.mdl"
+		}
+		"47"
+		{
+			"model"		"models\props/CS_militia/fireplacechimney01.mdl"
+		}
+		"48"
+		{
+			"model"		"models\props/CS_militia/fishriver01.mdl"
+		}
+		"49"
+		{
+			"model"		"models\props/CS_militia/food_stack.mdl"
+		}
+		"50"
+		{
+			"model"		"models\props/CS_militia/footlocker01_closed.mdl"
+		}
+		"51"
+		{
+			"model"		"models\props/CS_militia/footlocker01_open.mdl"
+		}
+		"52"
+		{
+			"model"		"models\props/CS_militia/furnace01.mdl"
+		}
+		"55"
+		{
+			"model"		"models\props/CS_militia/furniture_shelf01a.mdl"
+		}
+		"63"
+		{
+			"model"		"models\props/CS_militia/gun_cabinet.mdl"
+		}
+		"65"
+		{
+			"model"		"models\props/CS_militia/haybale_target.mdl"
+		}
+		"66"
+		{
+			"model"		"models\props/CS_militia/haybale_target_02.mdl"
+		}
+		"67"
+		{
+			"model"		"models\props/CS_militia/haybale_target_03.mdl"
+		}
+		"68"
+		{
+			"model"		"models\props/CS_militia/housefence.mdl"
+		}
+		"69"
+		{
+			"model"		"models\props/CS_militia/housefence_door.mdl"
+		}
+		"71"
+		{
+			"model"		"models\props/CS_militia/ladderwood.mdl"
+		}
+		"72"
+		{
+			"model"		"models\props/CS_militia/lightfixture01.mdl"
+		}
+		"76"
+		{
+			"model"		"models\props/CS_militia/light_shop2.mdl"
+		}
+		"77"
+		{
+			"model"		"models\props/CS_militia/logpile2.mdl"
+		}
+		"78"
+		{
+			"model"		"models\props/CS_militia/mailbox01.mdl"
+		}
+		"79"
+		{
+			"model"		"models\props/CS_militia/microwave01.mdl"
+		}
+		"84"
+		{
+			"model"		"models\props/CS_militia/militiarock05.mdl"
+		}
+		"85"
+		{
+			"model"		"models\props/CS_militia/militiawindow01.mdl"
+		}
+		"86"
+		{
+			"model"		"models\props/CS_militia/militiawindow02_breakable.mdl"
+		}
+		"91"
+		{
+			"model"		"models\props/CS_militia/militiawindow02_breakable_frame.mdl"
+		}
+		"92"
+		{
+			"model"		"models\props/CS_militia/mountedfish01.mdl"
+		}
+		"93"
+		{
+			"model"		"models\props/CS_militia/newspaperstack01.mdl"
+		}
+		"94"
+		{
+			"model"		"models\props/CS_militia/oldphone01.mdl"
+		}
+		"95"
+		{
+			"model"		"models\props/CS_militia/paintbucket01.mdl"
+		}
+		"96"
+		{
+			"model"		"models\props/CS_militia/refrigerator01.mdl"
+		}
+		"97"
+		{
+			"model"		"models\props/CS_militia/reloadingpress01.mdl"
+		}
+		"98"
+		{
+			"model"		"models\props/CS_militia/reload_bullet_tray.mdl"
+		}
+		"99"
+		{
+			"model"		"models\props/CS_militia/reload_scale.mdl"
+		}
+		"104"
+		{
+			"model"		"models\props/CS_militia/rockpileramp01.mdl"
+		}
+		"105"
+		{
+			"model"		"models\props/CS_militia/rocks01.mdl"
+		}
+		"106"
+		{
+			"model"		"models\props/CS_militia/rocksteppingstones01.mdl"
+		}
+		"117"
+		{
+			"model"		"models\props/CS_militia/roof_vent.mdl"
+		}
+		"118"
+		{
+			"model"		"models\props/CS_militia/ropeladder01.mdl"
+		}
+		"119"
+		{
+			"model"		"models\props/CS_militia/sawhorse.mdl"
+		}
+		"123"
+		{
+			"model"		"models\props/CS_militia/shedlight.mdl"
+		}
+		"125"
+		{
+			"model"		"models\props/CS_militia/sheetrock_leaning.mdl"
+		}
+		"126"
+		{
+			"model"		"models\props/CS_militia/shelves.mdl"
+		}
+		"127"
+		{
+			"model"		"models\props/CS_militia/shelves_wood.mdl"
+		}
+		"129"
+		{
+			"model"		"models\props/CS_militia/silo_01.mdl"
+		}
+		"130"
+		{
+			"model"		"models\props/CS_militia/skylight.mdl"
+		}
+		"131"
+		{
+			"model"		"models\props/CS_militia/skylight_glass.mdl"
+		}
+		"146"
+		{
+			"model"		"models\props/CS_militia/soap_rope.mdl"
+		}
+		"147"
+		{
+			"model"		"models\props/CS_militia/spotlight.mdl"
+		}
+		"148"
+		{
+			"model"		"models\props/CS_militia/stove01.mdl"
+		}
+		"149"
+		{
+			"model"		"models\props/CS_militia/table_kitchen.mdl"
+		}
+		"150"
+		{
+			"model"		"models\props/CS_militia/table_shed.mdl"
+		}
+		"151"
+		{
+			"model"		"models\props/CS_militia/television_console01.mdl"
+		}
+		"152"
+		{
+			"model"		"models\props/CS_militia/toilet.mdl"
+		}
+		"153"
+		{
+			"model"		"models\props/CS_militia/toothbrushset01.mdl"
+		}
+		"154"
+		{
+			"model"		"models\props/CS_militia/trees1.mdl"
+		}
+		"155"
+		{
+			"model"		"models\props/CS_militia/trees2.mdl"
+		}
+		"156"
+		{
+			"model"		"models\props/CS_militia/trees3.mdl"
+		}
+		"157"
+		{
+			"model"		"models\props/CS_militia/tree_large_militia.mdl"
+		}
+		"158"
+		{
+			"model"		"models\props/CS_militia/tv_console.mdl"
+		}
+		"159"
+		{
+			"model"		"models\props/CS_militia/urine_trough.mdl"
+		}
+		"160"
+		{
+			"model"		"models\props/CS_militia/van.mdl"
+		}
+		"161"
+		{
+			"model"		"models\props/CS_militia/van_glass.mdl"
+		}
+		"162"
+		{
+			"model"		"models\props/CS_militia/vent01.mdl"
+		}
+		"170"
+		{
+			"model"		"models\props/CS_militia/vine_wall2.mdl"
+		}
+		"173"
+		{
+			"model"		"models\props/CS_militia/wndw01.mdl"
+		}
+		"185"
+		{
+			"model"		"models\props/CS_militia/wood_bench.mdl"
+		}
+		"186"
+		{
+			"model"		"models\props/CS_militia/wood_table.mdl"
+		}
+	}
+}

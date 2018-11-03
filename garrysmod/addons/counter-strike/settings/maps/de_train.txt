@@ -1,0 +1,11 @@
+"Maps"
+{
+	"Counter-Strike"
+	{
+		"de_train"
+		{
+			"Credits"	"Valve Software"
+			"Material"	"maps/de_train"
+		}
+	}
+}

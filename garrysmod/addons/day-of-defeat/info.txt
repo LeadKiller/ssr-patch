@@ -1,0 +1,18 @@
+"AddonInfo"
+{
+	"name"		"DOD:S Content"
+	"version"	"1.0"
+	"up_date"	"22nd August 2006"
+	"author_name"	"Valve"
+	"author_email"	"n/a"
+	"author_url"	"http://www.valvesoftware.com/"
+	
+	"info"		"Contains the default Garry's Mod content (spawnmenus, playermodels, map icons) for Day Of Defeat"
+
+	// Won't be active unless the following GCFs are available and
+	// are mounted
+	//"GCFRequires"
+	//{
+	//	"0"		"300"
+	//}
+}

@@ -1,0 +1,11 @@
+"Maps"
+{
+	"Counter-Strike"
+	{
+		"de_aztec"
+		{
+			"Credits"	"Valve Software"
+			"Material"	"maps/de_aztec"
+		}
+	}
+}

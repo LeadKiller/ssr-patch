@@ -1,0 +1,236 @@
+"2"
+{
+	"Information"
+	{
+		"name"		"Counter-Strike"
+	}
+	"Entries"
+	{
+		"1"
+		{
+			"model"		"models/player/ct_gign.mdl"
+		}
+		"2"
+		{
+			"model"		"models/player/ct_sas.mdl"
+		}
+		"3"
+		{
+			"model"		"models/player/ct_urban.mdl"
+		}
+		"3.5"
+		{
+			"model"		"models//player/ct_gsg9.mdl"
+		}		
+		"4"
+		{
+			"model"		"models/player/t_guerilla.mdl"
+		}
+		"5"
+		{
+			"model"		"models/player/t_leet.mdl"
+		}
+		"6"
+		{
+			"model"		"models/player/t_phoenix.mdl"
+		}
+		
+		"6.5"
+		{
+			"model"		"models//player/t_arctic.mdl"
+		}
+		
+		"7"
+		{
+			"model"		"models/Characters/Hostage_01.mdl"
+		}
+		"8"
+		{
+			"model"		"models/Characters/Hostage_02.mdl"
+		}
+		"9"
+		{
+			"model"		"models/Characters/hostage_03.mdl"
+		}
+		"10"
+		{
+			"model"		"models/Characters/hostage_04.mdl"
+		}
+		"11"
+		{
+			"model"		"models/weapons/w_c4.mdl"
+		}
+		"13"
+		{
+			"model"		"models/weapons/w_eq_flashbang.mdl"
+		}
+		"14"
+		{
+			"model"		"models/weapons/w_eq_fraggrenade.mdl"
+		}
+		"15"
+		{
+			"model"		"models/weapons/w_eq_smokegrenade.mdl"
+		}
+		"17"
+		{
+			"model"		"models/weapons/w_knife_ct.mdl"
+		}
+		"18"
+		{
+			"model"		"models/weapons/w_knife_t.mdl"
+		}
+		"19"
+		{
+			"model"		"models/weapons/w_mach_m249para.mdl"
+		}
+		"21"
+		{
+			"model"		"models/weapons/w_pist_deagle.mdl"
+		}
+		"22"
+		{
+			"model"		"models/weapons/w_pist_elite.mdl"
+		}
+		"23"
+		{
+			"model"		"models/weapons/w_pist_fiveseven.mdl"
+		}
+		"24"
+		{
+			"model"		"models/weapons/w_pist_glock18.mdl"
+		}
+		"25"
+		{
+			"model"		"models/weapons/w_pist_p228.mdl"
+		}
+		"26"
+		{
+			"model"		"models/weapons/w_pist_usp.mdl"
+		}
+		"27"
+		{
+			"model"		"models/weapons/w_rif_ak47.mdl"
+		}
+		"28"
+		{
+			"model"		"models/weapons/w_rif_aug.mdl"
+		}
+		"29"
+		{
+			"model"		"models/weapons/w_rif_famas.mdl"
+		}
+		"30"
+		{
+			"model"		"models/weapons/w_rif_galil.mdl"
+		}
+		"31"
+		{
+			"model"		"models/weapons/w_rif_m4a1.mdl"
+		}
+		"32"
+		{
+			"model"		"models/weapons/w_rif_sg552.mdl"
+		}
+		"33"
+		{
+			"model"		"models/weapons/w_shot_m3super90.mdl"
+		}
+		"34"
+		{
+			"model"		"models/weapons/w_shot_xm1014.mdl"
+		}
+		"35"
+		{
+			"model"		"models/weapons/w_smg_mac10.mdl"
+		}
+		"36"
+		{
+			"model"		"models/weapons/w_smg_mp5.mdl"
+		}
+		"37"
+		{
+			"model"		"models/weapons/w_smg_p90.mdl"
+		}
+		"38"
+		{
+			"model"		"models/weapons/w_smg_tmp.mdl"
+		}
+		"39"
+		{
+			"model"		"models/weapons/w_smg_ump45.mdl"
+		}
+		"40"
+		{
+			"model"		"models/weapons/w_snip_awp.mdl"
+		}
+		"41"
+		{
+			"model"		"models/weapons/w_snip_g3sg1.mdl"
+		}
+		"42"
+		{
+			"model"		"models/weapons/w_snip_scout.mdl"
+		}
+		"43"
+		{
+			"model"		"models/weapons/w_snip_sg550.mdl"
+		}
+		"44"
+		{
+			"model"		"models/weapons/rifleshell.mdl"
+		}
+		"45"
+		{
+			"model"		"models/weapons/shell.mdl"
+		}
+		"46"
+		{
+			"model"		"models/weapons/Shotgun_shell.mdl"
+		}
+		"47"
+		{
+			"model"		"models/weapons/w_c4_planted.mdl"
+		}
+		"48"
+		{
+			"model"		"models/weapons/w_defuser.mdl"
+		}
+		"49"
+		{
+			"model"		"models/weapons/w_eq_eholster.mdl"
+		}
+		"50"
+		{
+			"model"		"models/weapons/w_eq_eholster_elite.mdl"
+		}
+		"51"
+		{
+			"model"		"models/weapons/w_eq_flashbang_thrown.mdl"
+		}
+		"52"
+		{
+			"model"		"models/weapons/w_eq_fraggrenade_thrown.mdl"
+		}
+		"53"
+		{
+			"model"		"models/weapons/w_eq_smokegrenade_thrown.mdl"
+		}
+		"54"
+		{
+			"model"		"models/weapons/w_pist_elite_dropped.mdl"
+		}
+		"55"
+		{
+			"model"		"models/weapons/w_pist_elite_single.mdl"
+		}
+		"56"
+		{
+			"model"		"models/weapons/w_pist_usp_silencer.mdl"
+		}
+		"57"
+		{
+			"model"		"models/weapons/w_rif_m4a1_silencer.mdl"
+		}
+	}
+}

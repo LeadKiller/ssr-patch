@@ -1,0 +1,11 @@
+"Maps"
+{
+	"Day of Defeat"
+	{
+		"dod_jagd"
+		{
+			"Credits"	"Valve Software"
+			"Material"	"maps/dod_jagd"
+		}
+	}
+}

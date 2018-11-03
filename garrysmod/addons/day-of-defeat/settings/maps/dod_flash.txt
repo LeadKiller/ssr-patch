@@ -1,0 +1,11 @@
+"Maps"
+{
+	"Day of Defeat"
+	{
+		"dod_flash"
+		{
+			"Credits"	"Valve Software"
+			"Material"	"maps/dod_flash"
+		}
+	}
+}

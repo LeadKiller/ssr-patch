@@ -1,0 +1,238 @@
+"3"
+{
+	"Information"
+	{
+		"name"		"Counter-Strike: cs_assault"
+	}
+	"Entries"
+	{
+		"1"
+		{
+			"model"		"models/props/cs_assault/ACUnit01.mdl"
+		}
+		"2"
+		{
+			"model"		"models/props/cs_assault/ACUnit02.mdl"
+		}
+		"3"
+		{
+			"model"		"models/props/cs_assault/BarrelWarning.mdl"
+		}
+		"4"
+		{
+			"model"		"models/props/cs_assault/Billboard.mdl"
+		}
+		"5"
+		{
+			"model"		"models/props/cs_assault/box_stack1.mdl"
+		}
+		"6"
+		{
+			"model"		"models/props/cs_assault/box_stack2.mdl"
+		}
+		"7"
+		{
+			"model"		"models/props/cs_assault/camera.mdl"
+		}
+		"8"
+		{
+			"model"		"models/props/cs_assault/ChainTrainStationSign.mdl"
+		}
+		"9"
+		{
+			"model"		"models/props/cs_assault/ConsolePanelLoadingBay.mdl"
+		}
+		"10"
+		{
+			"model"		"models/props/cs_assault/Dollar.mdl"
+		}
+		"11"
+		{
+			"model"		"models/props/cs_assault/dryer_box.mdl"
+		}
+		"12"
+		{
+			"model"		"models/props/cs_assault/dryer_box2.mdl"
+		}
+		"13"
+		{
+			"model"		"models/props/cs_assault/duct.mdl"
+		}
+		"17"
+		{
+			"model"		"models/props/cs_assault/FireHydrant.mdl"
+		}
+		"18"
+		{
+			"model"		"models/props/cs_assault/Floodlight01.mdl"
+		}
+		"19"
+		{
+			"model"		"models/props/cs_assault/Floodlight02.mdl"
+		}
+		"20"
+		{
+			"model"		"models/props/cs_assault/forklift.mdl"
+		}
+		"21"
+		{
+			"model"		"models/props/cs_assault/HandTruck.mdl"
+		}
+		"22"
+		{
+			"model"		"models/props/cs_assault/LadderAluminium128.mdl"
+		}
+		"24"
+		{
+			"model"		"models/props/cs_assault/light_shop2.mdl"
+		}
+		"25"
+		{
+			"model"		"models/props/cs_assault/meter.mdl"
+		}
+		"26"
+		{
+			"model"		"models/props/cs_assault/Money.mdl"
+		}
+		"27"
+		{
+			"model"		"models/props/cs_assault/MoneyPallet.mdl"
+		}
+		"28"
+		{
+			"model"		"models/props/cs_assault/MoneyPallet02.mdl"
+		}
+		"29"
+		{
+			"model"		"models/props/cs_assault/MoneyPallet02A.mdl"
+		}
+		"30"
+		{
+			"model"		"models/props/cs_assault/MoneyPallet02B.mdl"
+		}
+		"31"
+		{
+			"model"		"models/props/cs_assault/MoneyPallet02C.mdl"
+		}
+		"32"
+		{
+			"model"		"models/props/cs_assault/MoneyPallet02D.mdl"
+		}
+		"33"
+		{
+			"model"		"models/props/cs_assault/MoneyPallet02E.mdl"
+		}
+		"34"
+		{
+			"model"		"models/props/cs_assault/MoneyPallet03.mdl"
+		}
+		"35"
+		{
+			"model"		"models/props/cs_assault/MoneyPallet03A.mdl"
+		}
+		"36"
+		{
+			"model"		"models/props/cs_assault/MoneyPallet03B.mdl"
+		}
+		"37"
+		{
+			"model"		"models/props/cs_assault/MoneyPallet03C.mdl"
+		}
+		"38"
+		{
+			"model"		"models/props/cs_assault/MoneyPallet03D.mdl"
+		}
+		"39"
+		{
+			"model"		"models/props/cs_assault/MoneyPallet03E.mdl"
+		}
+		"40"
+		{
+			"model"		"models/props/cs_assault/MoneyPalletA.mdl"
+		}
+		"41"
+		{
+			"model"		"models/props/cs_assault/MoneyPalletB.mdl"
+		}
+		"42"
+		{
+			"model"		"models/props/cs_assault/MoneyPalletC.mdl"
+		}
+		"43"
+		{
+			"model"		"models/props/cs_assault/MoneyPalletD.mdl"
+		}
+		"44"
+		{
+			"model"		"models/props/cs_assault/MoneyPalletE.mdl"
+		}
+		"45"
+		{
+			"model"		"models/props/cs_assault/MoneyPallet_WasherDryer.mdl"
+		}
+		"46"
+		{
+			"model"		"models/props/cs_assault/NoParking.mdl"
+		}
+		"47"
+		{
+			"model"		"models/props/cs_assault/NoStopsSign.mdl"
+		}
+		"48"
+		{
+			"model"		"models/props/cs_assault/pylon.mdl"
+		}
+		"55"
+		{
+			"model"		"models/props/cs_assault/stoplight.mdl"
+		}
+		"56"
+		{
+			"model"		"models/props/cs_assault/streetlight.mdl"
+		}
+		"57"
+		{
+			"model"		"models/props/cs_assault/StreetSign01.mdl"
+		}
+		"58"
+		{
+			"model"		"models/props/cs_assault/StreetSign02.mdl"
+		}
+		"59"
+		{
+			"model"		"models/props/cs_assault/TicketMachine.mdl"
+		}
+		"60"
+		{
+			"model"		"models/props/cs_assault/TrainStationSign.mdl"
+		}
+		"61"
+		{
+			"model"		"models/props/cs_assault/VentilationDuct01.mdl"
+		}
+		"62"
+		{
+			"model"		"models/props/cs_assault/VentilationDuct02.mdl"
+		}
+		"64"
+		{
+			"model"		"models/props/cs_assault/wall_vent.mdl"
+		}
+		"67"
+		{
+			"model"		"models/props/cs_assault/washer_box.mdl"
+		}
+		"68"
+		{
+			"model"		"models/props/cs_assault/washer_box2.mdl"
+		}
+		"70"
+		{
+			"model"		"models/props/cs_assault/wirepipe.mdl"
+		}
+		"71"
+		{
+			"model"		"models/props/cs_assault/wirespout.mdl"
+		}
+	}
+}

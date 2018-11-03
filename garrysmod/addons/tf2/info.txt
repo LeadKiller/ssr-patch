@@ -1,0 +1,18 @@
+"AddonInfo"
+{
+	"name"		"TF2 Content"
+	"version"	"1.0"
+	"up_date"	"29th October 2007"
+	"author_name"	"Valve"
+	"author_email"	""
+	"author_url"	"http://www.valvesoftware.com/"
+	
+	"info"		"Contains the default Garry's Mod content (spawnmenus, map icons) for Team Fortress 2"
+
+	// Won't be active unless the following GCFs are available and
+	// are mounted
+	//"GCFRequires"
+	//{
+	//	"0"		"440"
+	//}
+}

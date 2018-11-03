@@ -1,0 +1,342 @@
+"4"
+{
+	"Information"
+	{
+		"name"		"Counter-Strike: cs_office"
+	}
+	"Entries"
+	{
+		"1"
+		{
+			"model"		"models\props/cs_office/address.mdl"
+		}
+		"2"
+		{
+			"model"		"models\props/cs_office/Awning_long.mdl"
+		}
+		"3"
+		{
+			"model"		"models\props/cs_office/Awning_short.mdl"
+		}
+		"4"
+		{
+			"model"		"models\props/cs_office/Bookshelf1.mdl"
+		}
+		"5"
+		{
+			"model"		"models\props/cs_office/Bookshelf2.mdl"
+		}
+		"6"
+		{
+			"model"		"models\props/cs_office/Bookshelf3.mdl"
+		}
+		"7"
+		{
+			"model"		"models\props/cs_office/Cardboard_box01.mdl"
+		}
+		"8"
+		{
+			"model"		"models\props/cs_office/Cardboard_box02.mdl"
+		}
+		"9"
+		{
+			"model"		"models\props/cs_office/Cardboard_box03.mdl"
+		}
+		"10"
+		{
+			"model"		"models\props/cs_office/Chair_office.mdl"
+		}
+		"12"
+		{
+			"model"		"models\props/cs_office/coffee_mug.mdl"
+		}
+		"13"
+		{
+			"model"		"models\props/cs_office/coffee_mug2.mdl"
+		}
+		"14"
+		{
+			"model"		"models\props/cs_office/coffee_mug3.mdl"
+		}
+		"18"
+		{
+			"model"		"models\props/cs_office/computer.mdl"
+		}
+		"20"
+		{
+			"model"		"models\props/cs_office/computer_caseB.mdl"
+		}
+		"45"
+		{
+			"model"		"models\props/cs_office/computer_keyboard.mdl"
+		}
+		"58"
+		{
+			"model"		"models\props/cs_office/computer_monitor.mdl"
+		}
+		"63"
+		{
+			"model"		"models\props/cs_office/computer_mouse.mdl"
+		}
+		"64"
+		{
+			"model"		"models\props/cs_office/Crates_indoor.mdl"
+		}
+		"65"
+		{
+			"model"		"models\props/cs_office/Crates_outdoor.mdl"
+		}
+		"68"
+		{
+			"model"		"models\props/cs_office/Exit_ceiling.mdl"
+		}
+		"69"
+		{
+			"model"		"models\props/cs_office/Exit_wall.mdl"
+		}
+		"70"
+		{
+			"model"		"models\props/cs_office/file_box.mdl"
+		}
+		"83"
+		{
+			"model"		"models\props/cs_office/file_cabinet1.mdl"
+		}
+		"84"
+		{
+			"model"		"models\props/cs_office/file_cabinet1_group.mdl"
+		}
+		"85"
+		{
+			"model"		"models\props/cs_office/file_cabinet2.mdl"
+		}
+		"86"
+		{
+			"model"		"models\props/cs_office/file_cabinet3.mdl"
+		}
+		"87"
+		{
+			"model"		"models\props/cs_office/Fire_Extinguisher.mdl"
+		}
+		"88"
+		{
+			"model"		"models\props/cs_office/Ladder1.mdl"
+		}
+		"89"
+		{
+			"model"		"models\props/cs_office/Light_ceiling.mdl"
+		}
+		"92"
+		{
+			"model"		"models\props/cs_office/Light_security.mdl"
+		}
+		"93"
+		{
+			"model"		"models\props/cs_office/Light_shop.mdl"
+		}
+		"95"
+		{
+			"model"		"models\props/cs_office/microwave.mdl"
+		}
+		"96"
+		{
+			"model"		"models\props/cs_office/offcertificatea.mdl"
+		}
+		"97"
+		{
+			"model"		"models\props/cs_office/offcorkboarda.mdl"
+		}
+		"98"
+		{
+			"model"		"models\props/cs_office/offinspa.mdl"
+		}
+		"99"
+		{
+			"model"		"models\props/cs_office/offinspb.mdl"
+		}
+		"100"
+		{
+			"model"		"models\props/cs_office/offinspc.mdl"
+		}
+		"101"
+		{
+			"model"		"models\props/cs_office/offinspd.mdl"
+		}
+		"102"
+		{
+			"model"		"models\props/cs_office/offinspf.mdl"
+		}
+		"103"
+		{
+			"model"		"models\props/cs_office/offinspg.mdl"
+		}
+		"104"
+		{
+			"model"		"models\props/cs_office/offpaintinga.mdl"
+		}
+		"105"
+		{
+			"model"		"models\props/cs_office/offpaintingb.mdl"
+		}
+		"107"
+		{
+			"model"		"models\props/cs_office/offpaintingd.mdl"
+		}
+		"108"
+		{
+			"model"		"models\props/cs_office/offpaintinge.mdl"
+		}
+		"109"
+		{
+			"model"		"models\props/cs_office/offpaintingf.mdl"
+		}
+		"110"
+		{
+			"model"		"models\props/cs_office/offpaintingg.mdl"
+		}
+		"111"
+		{
+			"model"		"models\props/cs_office/offpaintingh.mdl"
+		}
+		"112"
+		{
+			"model"		"models\props/cs_office/offpaintingi.mdl"
+		}
+		"113"
+		{
+			"model"		"models\props/cs_office/offpaintingj.mdl"
+		}
+		"114"
+		{
+			"model"		"models\props/cs_office/offpaintingk.mdl"
+		}
+		"115"
+		{
+			"model"		"models\props/cs_office/offpaintingl.mdl"
+		}
+		"116"
+		{
+			"model"		"models\props/cs_office/offpaintingm.mdl"
+		}
+		"118"
+		{
+			"model"		"models\props/cs_office/offpaintingo.mdl"
+		}
+		"119"
+		{
+			"model"		"models\props/cs_office/paperbox_pile_01.mdl"
+		}
+		"120"
+		{
+			"model"		"models\props/cs_office/Paper_towels.mdl"
+		}
+		"121"
+		{
+			"model"		"models\props/cs_office/phone.mdl"
+		}
+		"122"
+		{
+			"model"		"models\props/cs_office/phone_p1.mdl"
+		}
+		"123"
+		{
+			"model"		"models\props/cs_office/phone_p2.mdl"
+		}
+		"124"
+		{
+			"model"		"models\props/cs_office/plant01.mdl"
+		}
+		"135"
+		{
+			"model"		"models\props/cs_office/projector.mdl"
+		}
+		"158"
+		{
+			"model"		"models\props/cs_office/projector_remote.mdl"
+		}
+		"161"
+		{
+			"model"		"models\props/cs_office/radio.mdl"
+		}
+		"169"
+		{
+			"model"		"models\props/cs_office/Shelves_metal.mdl"
+		}
+		"170"
+		{
+			"model"		"models\props/cs_office/Shelves_metal1.mdl"
+		}
+		"171"
+		{
+			"model"		"models\props/cs_office/Shelves_metal2.mdl"
+		}
+		"172"
+		{
+			"model"		"models\props/cs_office/Shelves_metal3.mdl"
+		}
+		"173"
+		{
+			"model"		"models\props/cs_office/Snowman_arm.mdl"
+		}
+		"174"
+		{
+			"model"		"models\props/cs_office/Snowman_body.mdl"
+		}
+		"177"
+		{
+			"model"		"models\props/cs_office/Snowman_face.mdl"
+		}
+		"178"
+		{
+			"model"		"models\props/cs_office/Snowman_hat.mdl"
+		}
+		"179"
+		{
+			"model"		"models\props/cs_office/Snowman_head.mdl"
+		}
+		"181"
+		{
+			"model"		"models\props/cs_office/Snowman_nose.mdl"
+		}
+		"182"
+		{
+			"model"		"models\props/cs_office/sofa.mdl"
+		}
+		"183"
+		{
+			"model"		"models\props/cs_office/sofa_chair.mdl"
+		}
+		"184"
+		{
+			"model"		"models\props/cs_office/Table_coffee.mdl"
+		}
+		"188"
+		{
+			"model"		"models\props/cs_office/Table_meeting.mdl"
+		}
+		"189"
+		{
+			"model"		"models\props/cs_office/trash_can.mdl"
+		}
+		"195"
+		{
+			"model"		"models\props/cs_office/trash_can_p5.mdl"
+		}
+		"198"
+		{
+			"model"		"models\props/cs_office/trash_can_p8.mdl"
+		}
+		"199"
+		{
+			"model"		"models\props/cs_office/TV_plasma.mdl"
+		}
+		"206"
+		{
+			"model"		"models\props/cs_office/Vending_machine.mdl"
+		}
+		"207"
+		{
+			"model"		"models\props/cs_office/Water_bottle.mdl"
+		}
+	}
+}

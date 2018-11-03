@@ -1,0 +1,11 @@
+"Maps"
+{
+	"Counter-Strike"
+	{
+		"de_nuke"
+		{
+			"Credits"	"Valve Software"
+			"Material"	"maps/de_nuke"
+		}
+	}
+}

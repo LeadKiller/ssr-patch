@@ -1,0 +1,11 @@
+"Maps"
+{
+	"Counter-Strike"
+	{
+		"de_port"
+		{
+			"Credits"	"Valve Software"
+			"Material"	"maps/de_port"
+		}
+	}
+}

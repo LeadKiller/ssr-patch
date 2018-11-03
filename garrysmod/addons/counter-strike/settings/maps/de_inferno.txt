@@ -1,0 +1,11 @@
+"Maps"
+{
+	"Counter-Strike"
+	{
+		"de_inferno"
+		{
+			"Credits"	"Valve Software"
+			"Material"	"maps/de_inferno"
+		}
+	}
+}

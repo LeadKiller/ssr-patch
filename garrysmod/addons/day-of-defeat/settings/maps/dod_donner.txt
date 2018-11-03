@@ -1,0 +1,11 @@
+"Maps"
+{
+	"Day of Defeat"
+	{
+		"dod_donner"
+		{
+			"Credits"	"Valve Software"
+			"Material"	"maps/dod_donner"
+		}
+	}
+}

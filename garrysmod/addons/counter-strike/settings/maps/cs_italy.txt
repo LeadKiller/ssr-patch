@@ -1,0 +1,11 @@
+"Maps"
+{
+	"Counter-Strike"
+	{
+		"cs_italy"
+		{
+			"Credits"	"Valve Software"
+			"Material"	"maps/cs_italy"
+		}
+	}
+}

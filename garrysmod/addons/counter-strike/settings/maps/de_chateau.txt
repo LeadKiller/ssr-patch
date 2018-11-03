@@ -1,0 +1,11 @@
+"Maps"
+{
+	"Counter-Strike"
+	{
+		"de_chateau"
+		{
+			"Credits"	"Valve Software"
+			"Material"	"maps/de_chateau"
+		}
+	}
+}

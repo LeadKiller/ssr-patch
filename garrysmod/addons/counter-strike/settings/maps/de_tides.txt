@@ -1,0 +1,11 @@
+"Maps"
+{
+	"Counter-Strike"
+	{
+		"de_tides"
+		{
+			"Credits"	"Valve Software"
+			"Material"	"maps/de_tides"
+		}
+	}
+}

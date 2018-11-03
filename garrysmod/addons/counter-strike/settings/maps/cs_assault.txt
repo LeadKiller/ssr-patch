@@ -1,0 +1,11 @@
+"Maps"
+{
+	"Counter-Strike"
+	{
+		"cs_assault"
+		{
+			"Credits"	"Valve Software"
+			"Material"	"maps/cs_assault"
+		}
+	}
+}

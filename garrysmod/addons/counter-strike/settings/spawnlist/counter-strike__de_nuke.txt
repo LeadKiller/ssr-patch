@@ -1,0 +1,206 @@
+"6"
+{
+	"Information"
+	{
+		"name"		"Counter-Strike: de_nuke"
+	}
+	"Entries"
+	{
+		"1"
+		{
+			"model"		"models/props/de_nuke/car_nuke.mdl"
+		}
+		"2"
+		{
+			"model"		"models/props/de_nuke/car_nuke_black.mdl"
+		}
+		"3"
+		{
+			"model"		"models/props/de_nuke/car_nuke_glass.mdl"
+		}
+		"4"
+		{
+			"model"		"models/props/de_nuke/car_nuke_red.mdl"
+		}
+		"9"
+		{
+			"model"		"models/props/de_nuke/cinderblock_stack.mdl"
+		}
+		"10"
+		{
+			"model"		"models/props/de_nuke/clock.mdl"
+		}
+		"12"
+		{
+			"model"		"models/props/de_nuke/coolingtank.mdl"
+		}
+		"13"
+		{
+			"model"		"models/props/de_nuke/CoolingTower.mdl"
+		}
+		"15"
+		{
+			"model"		"models/props/de_nuke/crate_extralarge.mdl"
+		}
+		"16"
+		{
+			"model"		"models/props/de_nuke/crate_extrasmall.mdl"
+		}
+		"17"
+		{
+			"model"		"models/props/de_nuke/crate_large.mdl"
+		}
+		"18"
+		{
+			"model"		"models/props/de_nuke/crate_small.mdl"
+		}
+		"21"
+		{
+			"model"		"models/props/de_nuke/emergency_lighta.mdl"
+		}
+		"23"
+		{
+			"model"		"models/props/de_nuke/equipment1.mdl"
+		}
+		"27"
+		{
+			"model"		"models/props/de_nuke/file_cabinet1_group.mdl"
+		}
+		"28"
+		{
+			"model"		"models/props/de_nuke/Floodlight.mdl"
+		}
+		"30"
+		{
+			"model"		"models/props/de_nuke/fuel_cask.mdl"
+		}
+		"31"
+		{
+			"model"		"models/props/de_nuke/HandTruck.mdl"
+		}
+		"32"
+		{
+			"model"		"models/props/de_nuke/ibeams_bombsitea.mdl"
+		}
+		"33"
+		{
+			"model"		"models/props/de_nuke/ibeams_bombsiteb.mdl"
+		}
+		"34"
+		{
+			"model"		"models/props/de_nuke/ibeams_bombsitec.mdl"
+		}
+		"35"
+		{
+			"model"		"models/props/de_nuke/ibeams_bombsite_d.mdl"
+		}
+		"36"
+		{
+			"model"		"models/props/de_nuke/ibeams_ctspawna.mdl"
+		}
+		"37"
+		{
+			"model"		"models/props/de_nuke/ibeams_ctspawnb.mdl"
+		}
+		"38"
+		{
+			"model"		"models/props/de_nuke/ibeams_ctspawnc.mdl"
+		}
+		"39"
+		{
+			"model"		"models/props/de_nuke/ibeams_tspawna.mdl"
+		}
+		"40"
+		{
+			"model"		"models/props/de_nuke/ibeams_tspawnb.mdl"
+		}
+		"41"
+		{
+			"model"		"models/props/de_nuke/ibeams_tunnela.mdl"
+		}
+		"42"
+		{
+			"model"		"models/props/de_nuke/ibeams_tunnelb.mdl"
+		}
+		"43"
+		{
+			"model"		"models/props/de_nuke/ibeams_warehouseroof.mdl"
+		}
+		"44"
+		{
+			"model"		"models/props/de_nuke/IndustrialLight01.mdl"
+		}
+		"45"
+		{
+			"model"		"models/props/de_nuke/LifePreserver.mdl"
+		}
+		"46"
+		{
+			"model"		"models/props/de_nuke/light_red1.mdl"
+		}
+		"47"
+		{
+			"model"		"models/props/de_nuke/light_red2.mdl"
+		}
+		"48"
+		{
+			"model"		"models/props/de_nuke/NuclearContainerBoxClosed.mdl"
+		}
+		"49"
+		{
+			"model"		"models/props/de_nuke/NuclearControlBox.mdl"
+		}
+		"50"
+		{
+			"model"		"models/props/de_nuke/NuclearFuelContainer.mdl"
+		}
+		"51"
+		{
+			"model"		"models/props/de_nuke/NuclearTestCabinet.mdl"
+		}
+		"52"
+		{
+			"model"		"models/props/de_nuke/nuklogo.mdl"
+		}
+		"53"
+		{
+			"model"		"models/props/de_nuke/pipesa_bombsite.mdl"
+		}
+		"54"
+		{
+			"model"		"models/props/de_nuke/pipesb_bombsite.mdl"
+		}
+		"55"
+		{
+			"model"		"models/props/de_nuke/pipeset.mdl"
+		}
+		"56"
+		{
+			"model"		"models/props/de_nuke/PowerPlantTank.mdl"
+		}
+		"67"
+		{
+			"model"		"models/props/de_nuke/SmokeStack01.mdl"
+		}
+		"68"
+		{
+			"model"		"models/props/de_nuke/storagetank.mdl"
+		}
+		"69"
+		{
+			"model"		"models/props/de_nuke/truck_nuke.mdl"
+		}
+		"70"
+		{
+			"model"		"models/props/de_nuke/truck_nuke_glass.mdl"
+		}
+		"72"
+		{
+			"model"		"models/props/de_nuke/VentilationDuct02Large.mdl"
+		}
+		"73"
+		{
+			"model"		"models/props/de_nuke/wall_light.mdl"
+		}
+	}
+}

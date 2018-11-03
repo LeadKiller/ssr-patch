@@ -1,0 +1,11 @@
+"Maps"
+{
+	"Counter-Strike"
+	{
+		"de_dust2"
+		{
+			"Credits"	"Valve Software"
+			"Material"	"maps/de_dust2"
+		}
+	}
+}
