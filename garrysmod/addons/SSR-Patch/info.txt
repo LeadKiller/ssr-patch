@@ -1,0 +1,10 @@
+"AddonInfo"
+{
+	"name" "SSR Patch"
+	"version" "1.0"
+	"up_date" "4/30/2019"
+	"author_name" "LeadKiller"
+	"author_email" ""
+	"info" "SSR Patch for GMod 12 SSR"
+	"override" "1"
+}
