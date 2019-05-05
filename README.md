@@ -18,4 +18,4 @@ A small fan made modification to make SSR run without Source 2007 black screen b
 * Added game maplists and spawnlists
 * Hidden Stupid Liar spam
 * Fixed Toybox Auth spam
-* Toybox Replacement when [400 Toybox Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=1508536311) is used
+* Toybox Replacement when [400 Toybox Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=1508536311)/[Toybox Archive](https://garchive.garrysmod12.com/garchive/files/toybox_content.7z) is used
