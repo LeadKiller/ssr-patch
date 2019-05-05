@@ -6,7 +6,8 @@ A small fan made modification to make SSR run without Source 2007 black screen b
 [Download SSR Patch](https://github.com/LeadKiller/ssr-patch/releases)
 
 ## Installation
-- Drop the "garrysmod" folder and the "steam_appid.txt" file into the folder that contains hl2.exe  
+- Drop the "garrysmod" folder, "srcds.exe", and "steam_appid.txt" into the folder that contains hl2.exe  
+- Be sure to overwrite files if needed  
 - Then run Toybox Redirect.bat as administrator, or add "185.215.224.134 toyboxapi.garrysmod.com" and "185.215.224.134 toybox.garrysmod.com" to the hosts file.
 
 ## Changes
