@@ -1,7 +1,7 @@
 "AddonInfo"
 {
 	"name" "SSR Patch"
-	"version" "1.0"
+	"version" "1.1"
 	"up_date" "4/30/2019"
 	"author_name" "LeadKiller"
 	"author_email" ""
