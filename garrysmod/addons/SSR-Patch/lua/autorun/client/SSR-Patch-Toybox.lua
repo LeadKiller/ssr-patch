@@ -1,7 +1,7 @@
 if !SinglePlayer() then return end
 
 hook.Add("InitPostEntity", "SSR-Toybox", function()
-	if spawnmenu.GetCreationTabs()["Toybox"] and spawnmenu.GetCreationTabs()["Toybox Entities"] then
+	if spawnmenu.GetCreationTabs()["Toybox"] then
 		spawnmenu.GetCreationTabs()["Toybox"] = nil
 		spawnmenu.GetCreationTabs()["Toybox Entities"] = nil
 
