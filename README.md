@@ -2,8 +2,10 @@
 A small fan made modification to make SSR run without Source 2007 black screen bugs, Count Steam hours and earn achievements, add back toybox, to remove SSR branding, add Steam Cloud Support, add back CS:S Weapons, Add other game's spawn-lists and maps on Create A Game, and more
 
 ## Downloads
-[Get SSR](https://drive.google.com/file/d/0B2LJVvz5VEjEV3lnaUJFOHpxbkU/view)  
-[Download SSR Patch](https://github.com/LeadKiller/ssr-patch/releases)
+- [Get GMod 12 1.0.38.0](https://drive.google.com/file/d/1bV6xfyovmE_xPxzteESCaZ5lteYYbKvC/view) or [SSR (OLD)](https://drive.google.com/file/d/0B2LJVvz5VEjEV3lnaUJFOHpxbkU/view)  
+- [(SSR USERS ONLY) 1.0.38.0 Upgrade](https://drive.google.com/file/d/1KJrTIlP3exv-r2jU8i1iIhryoc8pjI0-/view)  
+- [(1.0.38.0 USERS ONLY) 1.0.38.0 SSR Crack](https://drive.google.com/file/d/1xCXXBpNuj1lFg4vCSObi9MEQ9LhO_iAl/view)  
+- [Download SSR Patch](https://github.com/LeadKiller/ssr-patch/releases)
 
 ## Installation
 - Drop the "garrysmod" folder, "srcds.exe", and "steam_appid.txt" into the folder that contains hl2.exe  
