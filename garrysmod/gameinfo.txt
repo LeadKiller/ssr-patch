@@ -1,31 +1,24 @@
 "GameInfo"
 {
-	game	"Garry's Mod 12"
+	game	"Garry's Mod"
 	title	""
 	title2	""
-	
-	
+	type 	multiplayer_only
+
 	"developer" 		"Facepunch Studios"
 	"developer_url" 	"http://www.garrysmod.com/"
-	"manual" 		"http://wiki.garrysmod.com/"
-	
-	
-	hidden_maps
-	{
-		"test_speakers"		1
-		"test_hardware"		1
-	}
-
+	"manual"           	"http://wiki.garrysmod.com/"
 
 	FileSystem
 	{
-		SteamAppId				4000		// This will mount all the GCFs we need (240=CS:S, 220=HL2).
-		ToolsAppId				211		// Tools will load this (ie: source SDK caches) to get things like materials\debug, materials\editor, etc.
+		SteamAppId				4000 // 218
+		ToolsAppId				211
 		
 		SearchPaths
 		{
 			Game				|gameinfo_path|.
 			Game				hl2
+			Game                            |all_source_engine_paths|hl2
 		}
 	}
 }
