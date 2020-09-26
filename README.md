@@ -6,6 +6,7 @@ A small fan made modification to make GMod 12 run without Source 2007 black scre
 - [Download SSR Patch](https://github.com/LeadKiller/ssr-patch/releases)
 
 ## Installation
+- If you're using Garry's Mod 12 SSR, install the 1.0.38.0 upgrade first  
 - Drop the "garrysmod" folder, "srcds.exe", and "steam_appid.txt" into the folder that contains hl2.exe  
 - Be sure to overwrite files if needed  
 - Then run Toybox Redirect.bat as administrator, or add "185.215.224.134 toyboxapi.garrysmod.com" and "185.215.224.134 toybox.garrysmod.com" to the hosts file.
