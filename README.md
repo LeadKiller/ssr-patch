@@ -20,4 +20,4 @@ A small fan made modification to make GMod 12 run without Source 2007 black scre
 * Added game maplists and spawnlists
 * Hidden Stupid Liar spam
 * Fixed Toybox Auth spam
-* Toybox Replacement when [400 Toybox Pack](https://steamcommunity.com/sharedfiles/filedetails/?id=1508536311)/[Toybox Archive](https://garchive.garrysmod12.com/gArchive/files/toybox_content.7z) is used
+* [Toybox Replacement](https://youtu.be/dOOo3pmZCR0) ([Toybox Archive](https://garchive.garrysmod12.com/gArchive/files/toybox_content.7z) is required for content)
