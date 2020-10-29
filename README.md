@@ -11,6 +11,9 @@ Fan-made patch for Garry's Mod 12 that adds Toybox, removes SSR branding, restor
 - Put the "garrysmod" folder and "steam_appid.txt" into the folder that contains hl2.exe, and overwrite files  
 - Run Toybox Redirect.bat as administrator, or add `185.215.224.134 toyboxapi.garrysmod.com` and `185.215.224.134 toybox.garrysmod.com` to the hosts file.
 
+## Updating
+It is recommended to delete SSR-Patch in addons before updating so that old files may be cleared.  
+
 ## Multiplayer Notice
 Playing multiplayer is very insecure, and should not be played outside of private servers with friends!  
 
