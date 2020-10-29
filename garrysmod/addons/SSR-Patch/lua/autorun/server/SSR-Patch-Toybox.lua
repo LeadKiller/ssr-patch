@@ -32,7 +32,7 @@ concommand.Add("toybox_download", function(ply, _, args)
             RunConsoleCommand("gm_giveswep", class)
             return
         elseif scripted_ents.GetStored(class) then
-            RunConsoleCommand("gm_spawnsent", class)
+            RunConsoleCommand("gm_spawnsent", class, args[3])
             return
         else
             lToyboxloadCode(id, args[2])

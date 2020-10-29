@@ -12,7 +12,7 @@ function lToyboxloadCode(tab, type)
         RunConsoleCommand("gm_giveswep", class)
         return
     elseif scripted_ents.GetStored(class) then
-        RunConsoleCommand("gm_spawnsent", class)
+        RunConsoleCommand("gm_spawnsent", class, tab)
         return
     end
 
@@ -50,7 +50,7 @@ function lToyboxloadCode(tab, type)
             if type == "weapon" then
                 RunConsoleCommand("gm_giveswep", class)
             elseif type == "entity" then
-                RunConsoleCommand("gm_spawnsent", class)
+                RunConsoleCommand("gm_spawnsent", class, id)
             end
         end)
     end
