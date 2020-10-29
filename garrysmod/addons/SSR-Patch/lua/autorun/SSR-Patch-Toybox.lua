@@ -11,7 +11,7 @@ function math.Remap( value, inMin, inMax, outMin, outMax )
 end
 
 function lToyboxloadCode(tab, type, delay)
-    local class = "toybox_" .. tab
+    local class = "toybox_" .. string.Split(tab, "_")[1]
     delay = delay or 0.3
 
     if weapons.GetStored(class) then

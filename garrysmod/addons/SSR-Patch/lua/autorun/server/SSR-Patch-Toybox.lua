@@ -24,7 +24,7 @@ concommand.Add("toybox_download", function(ply, _, args)
     if !type then return end
 
     if file.Read("toybox/" .. id .. ".txt") then
-        local class = "toybox_" .. id
+        local class = "toybox_" .. string.Split(id, "_")[1]
 
         if weapons.GetStored(class) then
             RunConsoleCommand("gm_giveswep", class)
