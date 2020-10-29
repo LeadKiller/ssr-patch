@@ -1,7 +1,7 @@
 "AddonInfo"
 {
 	"name" "SSR Patch"
-	"version" "1.5.1"
+	"version" "1.5.2"
 	"up_date" "10/27/2020"
 	"author_name" "Lead"
 	"author_email" ""

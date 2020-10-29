@@ -1,12 +1,18 @@
--- TODO: Network size so we can see info above 3mb
--- TODO: use files from gcf to determine what other content should download
+-- TODO: Multiplayer support
+-- TODO: Save uploading
+-- TODO: Redo serverside content downloading code
 
 function string.StartWith( String, Start )
     return string.sub( String, 1, string.len( Start ) ) == Start
 end
 
-function lToyboxloadCode(tab, type)
+function math.Remap( value, inMin, inMax, outMin, outMax )
+    return outMin + ( ( ( value - inMin ) / ( inMax - inMin ) ) * ( outMax - outMin ) )
+end
+
+function lToyboxloadCode(tab, type, delay)
     local class = "toybox_" .. tab
+    delay = delay or 0.3
 
     if weapons.GetStored(class) then
         RunConsoleCommand("gm_giveswep", class)
@@ -44,9 +50,10 @@ function lToyboxloadCode(tab, type)
         umsg.Start("lToyboxloadCode")
         umsg.String(id)
         umsg.String(type)
+        umsg.Float(delay)
         umsg.End()
     elseif CLIENT then
-        timer.Simple(0.3, function()
+        timer.Simple(delay, function()
             if type == "weapon" then
                 RunConsoleCommand("gm_giveswep", class)
             elseif type == "entity" then
