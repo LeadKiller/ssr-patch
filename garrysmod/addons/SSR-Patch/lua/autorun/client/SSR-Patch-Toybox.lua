@@ -1,8 +1,8 @@
-if !SinglePlayer() then return end
+if !SinglePlayer() and !_ToyboxMPConvar:GetBool() then return end
 
 -- maybe Initialize instead?
 hook.Add("InitPostEntity", "lToybox", function()
-    if spawnmenu.GetCreationTabs()["Toybox"] then
+    if !SinglePlayer() or spawnmenu.GetCreationTabs()["Toybox"] then
         spawnmenu.GetCreationTabs()["Toybox"] = nil
         spawnmenu.GetCreationTabs()["Toybox Entities"] = nil
 
@@ -72,14 +72,13 @@ end)
 
 -- ELEMENTS
 
-
 /*__                                       _     
  / _| __ _  ___ ___ _ __  _   _ _ __   ___| |__  
 | |_ / _` |/ __/ _ \ '_ \| | | | '_ \ / __| '_ \ 
 |  _| (_| | (_|  __/ |_) | |_| | | | | (__| | | |
 |_|  \__,_|\___\___| .__/ \__,_|_| |_|\___|_| |_|
                    |_| 2010 */
-                   
+
 include( "content_vgui.lua" )
 include( "content_main.lua" )
 

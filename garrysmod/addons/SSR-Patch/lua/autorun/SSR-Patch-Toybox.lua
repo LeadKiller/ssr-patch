@@ -1,6 +1,7 @@
--- TODO: Multiplayer support
 -- TODO: Save uploading
 -- TODO: Redo serverside content downloading code
+
+_ToyboxMPConvar = CreateConVar("toybox_multiplayer", "0", {FCVAR_REPLICATED, FCVAR_ARCHIVE, FCVAR_NOTIFY}, "Enables experimental multiplayer support, requires map restart. Not recommended with more than 8 players!")
 
 function string.StartWith( String, Start )
     return string.sub( String, 1, string.len( Start ) ) == Start
@@ -14,12 +15,32 @@ function lToyboxloadCode(tab, type, delay)
     local class = "toybox_" .. string.Split(tab, "_")[1]
     delay = delay or 0.3
 
-    if weapons.GetStored(class) then
-        RunConsoleCommand("gm_giveswep", class)
-        return
-    elseif scripted_ents.GetStored(class) then
-        RunConsoleCommand("gm_spawnsent", class, tab)
-        return
+    if SinglePlayer() then
+        if weapons.GetStored(class) then
+            RunConsoleCommand("gm_giveswep", class)
+            return
+        elseif scripted_ents.GetStored(class) then
+            RunConsoleCommand("gm_spawnsent", class, tab)
+            return
+        end
+    elseif CLIENT then
+        if !file.Read("toybox/" .. tab .. ".txt") then
+            timer.Simple(math.Rand(0.05, 0.2), function()
+                http.Get("http://toybox.garrysmod12.com/client/download.php?id=" .. tab, "", function(content, s)
+                    if content and content ~= "" and string.StartWith(content, "\"script\"") then
+                        file.Write("toybox/" .. tab .. ".txt", content)
+
+                        timer.Simple(0.01, function()
+                            lToyboxloadCode(tab, type, 0)
+                        end)
+                    end
+                end)
+            end)
+
+            return
+        else
+            RunConsoleCommand("toybox_multiplayer_downloaded", tab)
+        end
     end
 
     local id = tab
@@ -46,19 +67,21 @@ function lToyboxloadCode(tab, type, delay)
         scripted_ents.Register(ENT, class)
     end
 
-    if SERVER then
-        umsg.Start("lToyboxloadCode")
-        umsg.String(id)
-        umsg.String(type)
-        umsg.Float(delay)
-        umsg.End()
-    elseif CLIENT then
-        timer.Simple(delay, function()
-            if type == "weapon" then
-                RunConsoleCommand("gm_giveswep", class)
-            elseif type == "entity" then
-                RunConsoleCommand("gm_spawnsent", class, id)
-            end
-        end)
+    if SinglePlayer() then
+        if SERVER then
+            umsg.Start("lToyboxloadCode")
+            umsg.String(id)
+            umsg.String(type)
+            umsg.Float(delay)
+            umsg.End()
+        elseif CLIENT then
+            timer.Simple(delay, function()
+                if type == "weapon" then
+                    RunConsoleCommand("gm_giveswep", class)
+                elseif type == "entity" then
+                    RunConsoleCommand("gm_spawnsent", class, id)
+                end
+            end)
+        end
     end
 end

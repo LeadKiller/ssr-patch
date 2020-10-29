@@ -1,7 +1,7 @@
 local Downloading = {}
 
-local function UpdatePackageDownloadStatus(id, file, f, status, size)
-    umsg.Start("lToyboxDownload")
+local function UpdatePackageDownloadStatus(id, file, f, status, size, ply)
+    umsg.Start("lToyboxDownload", ply)
     umsg.Float(id)
     umsg.String(file)
     umsg.Float(f)
@@ -10,7 +10,15 @@ local function UpdatePackageDownloadStatus(id, file, f, status, size)
     umsg.End()
 end
 
+local Downloaded = {}
+local DownloadedPlayers = {}
+local DownloadedPlys = {}
+local DownloadedType = {}
+local DownloadedAnims = {}
+
 concommand.Add("toybox_download", function(ply, _, args)
+    if !SinglePlayer() and !_ToyboxMPConvar:GetBool() or !ply:IsSuperAdmin() then return end
+
     local id = args[1]
 
     if !id then return end
@@ -22,6 +30,42 @@ concommand.Add("toybox_download", function(ply, _, args)
     local type = args[2]
 
     if !type then return end
+
+    -- multiplayer
+    if !SinglePlayer() then
+        if file.Read("toybox/" .. id .. ".txt") then
+            Downloaded[id] = {ply, type}
+            DownloadedPlayers[id] = {}
+            DownloadedPlys[id] = {}
+            DownloadedType[id] = type
+        else
+            Downloading[id] = true
+
+            UpdatePackageDownloadStatus(id, id .. ".lua", 0.1, "", 2048)
+
+            http.Get("http://toybox.garrysmod12.com/client/download.php?id=" .. id, "", function(content, s)
+                Downloading[id] = false
+
+                if content and content ~= "" and string.StartWith(content, "\"script\"") then
+                    file.Write("toybox/" .. id .. ".txt", content)
+
+                    timer.Simple(0.1, function()
+                        lToyboxloadCode(id, type, 0)
+
+                        Downloaded[id] = {ply, type}
+                        DownloadedPlayers[id] = {}
+                        DownloadedPlys[id] = {}
+                        DownloadedType[id] = type
+                    end)
+                else
+                    ErrorNoHalt("FAILED TO DOWNLOAD " .. id .. "!")
+                    UpdatePackageDownloadStatus(id, id .. ".lua", 0.1, "failed", 2048)
+                end
+            end)
+        end
+
+        return
+    end
 
     if file.Read("toybox/" .. id .. ".txt") then
         local class = "toybox_" .. string.Split(id, "_")[1]
@@ -101,4 +145,71 @@ concommand.Add("toybox_download", function(ply, _, args)
             Downloading[id] = nil
         end)
     end)
+end)
+
+if SinglePlayer() or !_ToyboxMPConvar:GetBool() then return end
+
+concommand.Add("toybox_multiplayer_downloaded", function(ply, _, args)
+    local id = args[1]
+
+    if !id or !DownloadedPlys[id] then return end
+
+    DownloadedPlys[id][ply:SteamID()] = true
+end)
+
+hook.Add("Tick", "lToybox_Multiplayer", function()
+    -- this is really bad, hopefully it's clear this is wip and experimental
+
+    for _, ply in ipairs(player.GetAll()) do
+        local steamid = ply:SteamID()
+
+        for id, tab in pairs(DownloadedPlayers) do
+            if !tab[steamid] then
+                DownloadedPlayers[id][steamid] = true
+
+                umsg.Start("lToyboxloadCode", ply)
+                umsg.String(id)
+                umsg.String(DownloadedType[id])
+                umsg.Float(0.1)
+                umsg.End()
+            end
+        end
+    end
+
+    for id, val in pairs(Downloaded) do
+        local mounted = true
+
+        for _, ply in ipairs(player.GetAll()) do
+            if !DownloadedPlys[id][ply:SteamID()] then
+                mounted = false
+            end
+        end
+
+        if mounted then
+            local class = "toybox_" .. string.Split(id, "_")[1]
+
+            if weapons.GetStored(class) then
+                CCGiveSWEP(val[1], "gm_giveswep", {class})
+            elseif scripted_ents.GetStored(class) then
+                CCSpawnSENT(val[1], "gm_spawnsent", {class})
+            end
+
+            Downloaded[id] = nil
+
+            if !DownloadedAnims[id] then
+                UpdatePackageDownloadStatus(id, id .. ".lua", 0.1, "success", 2048)
+                DownloadedAnims[id] = true
+            end
+        end
+    end
+end)
+
+hook.Add("PlayerDisconnected", "lToybox_Multiplayer", function(ply)
+    for id, tab in pairs(DownloadedPlys) do
+        DownloadedPlys[id][ply:SteamID()] = nil
+    end
+
+    for id, tab in pairs(DownloadedPlayers) do
+        DownloadedPlayers[id][ply:SteamID()] = nil
+    end
 end)
