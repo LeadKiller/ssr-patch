@@ -26,7 +26,7 @@ function lToyboxloadCode(tab, type, delay)
     elseif CLIENT then
         if !file.Read("toybox/" .. tab .. ".txt") then
             timer.Simple(math.Rand(0.05, 0.2), function()
-                http.Get("http://toybox.garrysmod12.com/client/download.php?id=" .. tab, "", function(content, s)
+                http.Get("http://toybox.moddage.site/client/download.php?id=" .. tab, "", function(content, s)
                     if content and content ~= "" and string.StartWith(content, "\"script\"") then
                         file.Write("toybox/" .. tab .. ".txt", content)
 

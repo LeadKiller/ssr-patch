@@ -43,7 +43,7 @@ concommand.Add("toybox_download", function(ply, _, args)
 
             UpdatePackageDownloadStatus(id, id .. ".lua", 0.1, "", 2048)
 
-            http.Get("http://toybox.garrysmod12.com/client/download.php?id=" .. id, "", function(content, s)
+            http.Get("http://toybox.moddage.site/client/download.php?id=" .. id, "", function(content, s)
                 Downloading[id] = false
 
                 if content and content ~= "" and string.StartWith(content, "\"script\"") then
@@ -88,7 +88,7 @@ concommand.Add("toybox_download", function(ply, _, args)
     local fileid = downloadid + math.floor(CurTime())
 
     -- messy code
-    http.Get("http://toybox.garrysmod12.com/client/download.php?id=" .. id, "", function(content, s)
+    http.Get("http://toybox.moddage.site/client/download.php?id=" .. id, "", function(content, s)
         -- add a delay since this downloads instantly
         local success = content and content ~= "" and string.StartWith(content, "\"script\"")
         local delay = (!success and 0.15) or math.Rand(0.05, 0.1) -- math.Clamp(s / 8600, 0.4, math.Rand(1.5, 1.8)) -- math.Rand(2, 3.5)

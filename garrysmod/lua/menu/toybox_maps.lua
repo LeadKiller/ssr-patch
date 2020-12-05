@@ -23,7 +23,7 @@ function PANEL:Paint()
 		
 		self.HTML = vgui.Create( "HTML", self )
 		self.HTML:Dock( FILL )
-		self.HTML:OpenURL( "http://toybox.garrysmod12.com/IG/maps/" );
+		self.HTML:OpenURL( "http://toybox.moddage.site/IG/maps/" );
 		
 		self.HTMLControls:SetHTML( self.HTML )
 		

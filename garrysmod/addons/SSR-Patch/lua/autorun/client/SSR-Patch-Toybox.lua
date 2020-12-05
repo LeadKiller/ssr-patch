@@ -21,7 +21,7 @@ hook.Add("InitPostEntity", "lToybox", function()
 
                     self.HTML = vgui.Create( "HTML", self )
                     self.HTML:Dock( FILL )
-                    self.HTML:OpenURL( "http://toybox.garrysmod12.com/ingame/" );
+                    self.HTML:OpenURL( "http://toybox.moddage.site/ingame/" );
 
                     self.HTMLControls:SetHTML( self.HTML )
 
