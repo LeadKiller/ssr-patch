@@ -26,4 +26,4 @@ Playing multiplayer is very insecure, and should not be played outside of privat
 * Added game maplists and spawnlists
 * Hidden Stupid Liar spam
 * Fixed Toybox Auth spam
-* [Toybox Replacement](https://youtu.be/dOOo3pmZCR0) ([Toybox Archive](https://garchive.moddage.site/gArchive/files/toybox_content.7z) is required for content)
+* [Toybox Replacement](https://youtu.be/dOOo3pmZCR0) ([Toybox Archive](https://garchive.moddage.site/gArchive/files/toybox_content.7z) and [Toybox Cache](https://drive.google.com/file/d/1yvJnpmfN3DNipkRAbKQO7JjHhrpEKMLk/view?usp=sharing) is required for content)
